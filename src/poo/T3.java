@@ -2,8 +2,8 @@ package poo;
 
 import java.util.function.Function;
 
-public interface T3 <A>{
+public interface T3 <A> extends Function<Function<A,A>, Function <A,A>> {
 	
-	A f1(Function<A,A> fun, A a);
+	
 	
 }
