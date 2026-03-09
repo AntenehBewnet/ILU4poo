@@ -31,8 +31,8 @@ public class Tp1{
 		//d
 		int resD = Comp.comp2(
 				(String x) -> Integer.parseInt(x) + 1,
-				(String x) -> Integer.parseInt(x),
-				(String x) -> Integer.parseInt(x)
+				(String x) -> Integer.parseInt(x) * 2,
+				(String x) -> Integer::max).apply("2");
 		
 		
 		
